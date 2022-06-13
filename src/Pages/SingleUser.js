@@ -5,7 +5,7 @@ import Loader from '../components/Loader';
 
 const SingleUser = () => {
     const [loading, setLoading] = useState(false);
-    const [toBeLoaded, setToBeLoaded] = useState(false);
+    var [toBeLoaded, setToBeLoaded] = useState(false);
     var [user, setUser] = useState({});
     const [img, setImg] = useState();
     const { id } = useParams();
